@@ -1,0 +1,23 @@
+2026-04-05 17:31:38 [info]: Test: BOUND_001 - Name at max boundary (255 chars)
+2026-04-05 17:31:38 [info]: Navigating to form page
+2026-04-05 17:31:38 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:31:39 [info]: Waiting for form to load
+2026-04-05 17:31:39 [info]: Waiting for element: #fullName
+2026-04-05 17:31:39 [info]: Filling complete form with all fields
+2026-04-05 17:31:39 [info]: Entering full name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-04-05 17:31:39 [info]: Filling input "#fullName" with value: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-04-05 17:31:39 [info]: Entering email: test@example.com
+2026-04-05 17:31:39 [info]: Filling input "#email" with value: test@example.com
+2026-04-05 17:31:39 [info]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:31:39 [info]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:31:39 [info]: Entering address: 123 Test St
+2026-04-05 17:31:39 [info]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:31:39 [info]: Entering city: Test City
+2026-04-05 17:31:39 [info]: Filling input "#city" with value: Test City
+2026-04-05 17:31:39 [info]: Entering state: TC
+2026-04-05 17:31:39 [info]: Filling input "#state" with value: TC
+2026-04-05 17:31:39 [info]: Entering country: United States
+2026-04-05 17:31:39 [info]: Filling input "#country" with value: United States
+2026-04-05 17:31:40 [info]: Entering zip code: 12345
+2026-04-05 17:31:40 [info]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:31:40 [info]: Name at max boundary attempted

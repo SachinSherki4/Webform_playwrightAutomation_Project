@@ -1,0 +1,113 @@
+2026-04-05 17:32:51 [info]: Test: EDGE_006 - Different phone formats
+2026-04-05 17:32:51 [info]: Navigating to form page
+2026-04-05 17:32:51 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:32:52 [info]: Waiting for form to load
+2026-04-05 17:32:52 [info]: Waiting for element: #fullName
+2026-04-05 17:32:52 [info]: Filling complete form with all fields
+2026-04-05 17:32:52 [info]: Entering full name: John Doe
+2026-04-05 17:32:52 [info]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:32:52 [info]: Entering email: test@example.com
+2026-04-05 17:32:52 [info]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:52 [info]: Entering phone: 555-123-4567
+2026-04-05 17:32:52 [info]: Filling input "#phone" with value: 555-123-4567
+2026-04-05 17:32:52 [info]: Entering address: 123 Test St
+2026-04-05 17:32:52 [info]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:52 [info]: Entering city: Test City
+2026-04-05 17:32:52 [info]: Filling input "#city" with value: Test City
+2026-04-05 17:32:52 [info]: Entering state: TC
+2026-04-05 17:32:52 [info]: Filling input "#state" with value: TC
+2026-04-05 17:32:52 [info]: Entering country: United States
+2026-04-05 17:32:52 [info]: Filling input "#country" with value: United States
+2026-04-05 17:32:52 [info]: Entering zip code: 12345
+2026-04-05 17:32:52 [info]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:52 [info]: Submitting form
+2026-04-05 17:32:52 [info]: Clicking element: #submitBtn
+2026-04-05 17:32:54 [info]: Checking if success message is visible
+2026-04-05 17:32:54 [info]: Element ".alert-success" visible: true
+2026-04-05 17:32:54 [info]: Phone format "555-123-4567" result: success
+2026-04-05 17:32:54 [info]: Resetting form
+2026-04-05 17:32:54 [info]: Clearing all input fields
+2026-04-05 17:32:54 [info]: Navigating to form page
+2026-04-05 17:32:54 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:32:55 [info]: Waiting for form to load
+2026-04-05 17:32:55 [info]: Waiting for element: #fullName
+2026-04-05 17:32:55 [info]: Filling complete form with all fields
+2026-04-05 17:32:55 [info]: Entering full name: John Doe
+2026-04-05 17:32:55 [info]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:32:55 [info]: Entering email: test@example.com
+2026-04-05 17:32:55 [info]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:55 [info]: Entering phone: (555) 123-4567
+2026-04-05 17:32:55 [info]: Filling input "#phone" with value: (555) 123-4567
+2026-04-05 17:32:55 [info]: Entering address: 123 Test St
+2026-04-05 17:32:55 [info]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:55 [info]: Entering city: Test City
+2026-04-05 17:32:55 [info]: Filling input "#city" with value: Test City
+2026-04-05 17:32:55 [info]: Entering state: TC
+2026-04-05 17:32:55 [info]: Filling input "#state" with value: TC
+2026-04-05 17:32:55 [info]: Entering country: United States
+2026-04-05 17:32:55 [info]: Filling input "#country" with value: United States
+2026-04-05 17:32:55 [info]: Entering zip code: 12345
+2026-04-05 17:32:55 [info]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:55 [info]: Submitting form
+2026-04-05 17:32:55 [info]: Clicking element: #submitBtn
+2026-04-05 17:32:57 [info]: Checking if success message is visible
+2026-04-05 17:32:57 [info]: Element ".alert-success" visible: true
+2026-04-05 17:32:57 [info]: Phone format "(555) 123-4567" result: success
+2026-04-05 17:32:57 [info]: Resetting form
+2026-04-05 17:32:57 [info]: Clearing all input fields
+2026-04-05 17:32:58 [info]: Navigating to form page
+2026-04-05 17:32:58 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:32:58 [info]: Waiting for form to load
+2026-04-05 17:32:58 [info]: Waiting for element: #fullName
+2026-04-05 17:32:58 [info]: Filling complete form with all fields
+2026-04-05 17:32:58 [info]: Entering full name: John Doe
+2026-04-05 17:32:58 [info]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:32:58 [info]: Entering email: test@example.com
+2026-04-05 17:32:58 [info]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:58 [info]: Entering phone: 5551234567
+2026-04-05 17:32:58 [info]: Filling input "#phone" with value: 5551234567
+2026-04-05 17:32:58 [info]: Entering address: 123 Test St
+2026-04-05 17:32:58 [info]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:58 [info]: Entering city: Test City
+2026-04-05 17:32:58 [info]: Filling input "#city" with value: Test City
+2026-04-05 17:32:58 [info]: Entering state: TC
+2026-04-05 17:32:58 [info]: Filling input "#state" with value: TC
+2026-04-05 17:32:58 [info]: Entering country: United States
+2026-04-05 17:32:58 [info]: Filling input "#country" with value: United States
+2026-04-05 17:32:59 [info]: Entering zip code: 12345
+2026-04-05 17:32:59 [info]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:59 [info]: Submitting form
+2026-04-05 17:32:59 [info]: Clicking element: #submitBtn
+2026-04-05 17:33:01 [info]: Checking if success message is visible
+2026-04-05 17:33:01 [info]: Element ".alert-success" visible: true
+2026-04-05 17:33:01 [info]: Phone format "5551234567" result: success
+2026-04-05 17:33:01 [info]: Resetting form
+2026-04-05 17:33:01 [info]: Clearing all input fields
+2026-04-05 17:33:01 [info]: Navigating to form page
+2026-04-05 17:33:01 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:33:02 [info]: Waiting for form to load
+2026-04-05 17:33:02 [info]: Waiting for element: #fullName
+2026-04-05 17:33:02 [info]: Filling complete form with all fields
+2026-04-05 17:33:02 [info]: Entering full name: John Doe
+2026-04-05 17:33:02 [info]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:33:02 [info]: Entering email: test@example.com
+2026-04-05 17:33:02 [info]: Filling input "#email" with value: test@example.com
+2026-04-05 17:33:02 [info]: Entering phone: +1 555 123 4567
+2026-04-05 17:33:02 [info]: Filling input "#phone" with value: +1 555 123 4567
+2026-04-05 17:33:02 [info]: Entering address: 123 Test St
+2026-04-05 17:33:02 [info]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:33:02 [info]: Entering city: Test City
+2026-04-05 17:33:02 [info]: Filling input "#city" with value: Test City
+2026-04-05 17:33:02 [info]: Entering state: TC
+2026-04-05 17:33:02 [info]: Filling input "#state" with value: TC
+2026-04-05 17:33:02 [info]: Entering country: United States
+2026-04-05 17:33:02 [info]: Filling input "#country" with value: United States
+2026-04-05 17:33:02 [info]: Entering zip code: 12345
+2026-04-05 17:33:02 [info]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:33:02 [info]: Submitting form
+2026-04-05 17:33:02 [info]: Clicking element: #submitBtn
+2026-04-05 17:33:04 [info]: Checking if success message is visible
+2026-04-05 17:33:04 [info]: Element ".alert-success" visible: true
+2026-04-05 17:33:04 [info]: Phone format "+1 555 123 4567" result: success
+2026-04-05 17:33:04 [info]: Resetting form
+2026-04-05 17:33:04 [info]: Clearing all input fields

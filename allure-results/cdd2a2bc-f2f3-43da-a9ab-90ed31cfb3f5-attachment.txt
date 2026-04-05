@@ -1,0 +1,57 @@
+2026-04-05 17:32:05 [info]: Test: DATA_001 - Duplicate submission
+2026-04-05 17:32:05 [info]: Navigating to form page
+2026-04-05 17:32:05 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:32:05 [info]: Waiting for form to load
+2026-04-05 17:32:05 [info]: Waiting for element: #fullName
+2026-04-05 17:32:06 [info]: Filling complete form with all fields
+2026-04-05 17:32:06 [info]: Entering full name: John Duplicate
+2026-04-05 17:32:06 [info]: Filling input "#fullName" with value: John Duplicate
+2026-04-05 17:32:06 [info]: Entering email: duplicate@example.com
+2026-04-05 17:32:06 [info]: Filling input "#email" with value: duplicate@example.com
+2026-04-05 17:32:06 [info]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:06 [info]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:06 [info]: Entering address: 123 Duplicate St
+2026-04-05 17:32:06 [info]: Filling input "#address" with value: 123 Duplicate St
+2026-04-05 17:32:06 [info]: Entering city: Duplicate City
+2026-04-05 17:32:06 [info]: Filling input "#city" with value: Duplicate City
+2026-04-05 17:32:06 [info]: Entering state: DC
+2026-04-05 17:32:06 [info]: Filling input "#state" with value: DC
+2026-04-05 17:32:06 [info]: Entering country: United States
+2026-04-05 17:32:06 [info]: Filling input "#country" with value: United States
+2026-04-05 17:32:06 [info]: Entering zip code: 12345
+2026-04-05 17:32:06 [info]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:06 [info]: Entering notes: First submission
+2026-04-05 17:32:06 [info]: Filling input "#notes" with value: First submission
+2026-04-05 17:32:06 [info]: Submitting form
+2026-04-05 17:32:06 [info]: Clicking element: #submitBtn
+2026-04-05 17:32:09 [info]: Checking if success message is visible
+2026-04-05 17:32:09 [info]: Element ".alert-success" visible: true
+2026-04-05 17:32:09 [info]: First submission result: success
+2026-04-05 17:32:09 [info]: Navigating to form page
+2026-04-05 17:32:09 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:32:10 [info]: Waiting for form to load
+2026-04-05 17:32:10 [info]: Waiting for element: #fullName
+2026-04-05 17:32:10 [info]: Filling complete form with all fields
+2026-04-05 17:32:10 [info]: Entering full name: John Duplicate
+2026-04-05 17:32:10 [info]: Filling input "#fullName" with value: John Duplicate
+2026-04-05 17:32:10 [info]: Entering email: duplicate@example.com
+2026-04-05 17:32:10 [info]: Filling input "#email" with value: duplicate@example.com
+2026-04-05 17:32:10 [info]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:10 [info]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:10 [info]: Entering address: 123 Duplicate St
+2026-04-05 17:32:10 [info]: Filling input "#address" with value: 123 Duplicate St
+2026-04-05 17:32:10 [info]: Entering city: Duplicate City
+2026-04-05 17:32:10 [info]: Filling input "#city" with value: Duplicate City
+2026-04-05 17:32:10 [info]: Entering state: DC
+2026-04-05 17:32:10 [info]: Filling input "#state" with value: DC
+2026-04-05 17:32:10 [info]: Entering country: United States
+2026-04-05 17:32:10 [info]: Filling input "#country" with value: United States
+2026-04-05 17:32:10 [info]: Entering zip code: 12345
+2026-04-05 17:32:10 [info]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:10 [info]: Entering notes: Second submission
+2026-04-05 17:32:10 [info]: Filling input "#notes" with value: Second submission
+2026-04-05 17:32:10 [info]: Submitting form
+2026-04-05 17:32:10 [info]: Clicking element: #submitBtn
+2026-04-05 17:32:13 [info]: Checking if success message is visible
+2026-04-05 17:32:13 [info]: Element ".alert-success" visible: true
+2026-04-05 17:32:13 [info]: Second submission result: success

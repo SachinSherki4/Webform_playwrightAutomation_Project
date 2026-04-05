@@ -1,0 +1,194 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: formPositive.spec.js >> Form Positive Scenarios - Valid Submissions >> POS_001 - Submit form with valid data
+- Location: tests\formPositive.spec.js:12:3
+
+# Error details
+
+```
+TypeError: allure.attachment is not a function
+```
+
+# Test source
+
+```ts
+  1   | /**
+  2   |  * Allure Reporter Utility
+  3   |  * Provides helper functions for Allure reporting in Playwright tests
+  4   |  */
+  5   | 
+  6   | import { expect } from '@playwright/test';
+  7   | import * as allure from 'allure-playwright';
+  8   | import fs from 'fs';
+  9   | import path from 'path';
+  10  | 
+  11  | export class AllureReporter {
+  12  |   /**
+  13  |    * Add a step to the Allure report
+  14  |    * @param {string} stepName - Name of the step
+  15  |    * @param {Function} stepAction - Async function to execute
+  16  |    */
+  17  |   static async addStep(stepName, stepAction) {
+  18  |     return allure.step(stepName, stepAction);
+  19  |   }
+  20  | 
+  21  |   /**
+  22  |    * Attach screenshot to Allure report
+  23  |    * @param {Page} page - Playwright page object
+  24  |    * @param {string} attachmentName - Name of the attachment
+  25  |    */
+  26  |   static async attachScreenshot(page, attachmentName = 'Screenshot') {
+  27  |     try {
+  28  |       const screenshotBuffer = await page.screenshot();
+  29  |       allure.attachment(attachmentName, screenshotBuffer, {
+  30  |         contentType: 'image/png',
+  31  |       });
+  32  |     } catch (error) {
+  33  |       console.error('Failed to attach screenshot:', error);
+  34  |     }
+  35  |   }
+  36  | 
+  37  |   /**
+  38  |    * Attach console logs to Allure report
+  39  |    * @param {Array} consoleLogs - Array of console messages
+  40  |    * @param {string} attachmentName - Name of the attachment
+  41  |    */
+  42  |   static attachLogs(consoleLogs, attachmentName = 'Console Logs') {
+  43  |     if (!consoleLogs || consoleLogs.length === 0) {
+  44  |       return;
+  45  |     }
+  46  | 
+  47  |     const logsText = consoleLogs
+  48  |       .map(
+  49  |         (log, index) =>
+  50  |           `[${index + 1}] [${log.type.toUpperCase()}] ${log.text}\n`
+  51  |       )
+  52  |       .join('');
+  53  | 
+  54  |     allure.attachment(attachmentName, logsText, {
+  55  |       contentType: 'text/plain',
+  56  |     });
+  57  |   }
+  58  | 
+  59  |   /**
+  60  |    * Attach environment information
+  61  |    * @param {string} browser - Browser name
+  62  |    * @param {string} os - Operating system
+  63  |    */
+  64  |   static attachEnvironmentInfo(browser, os) {
+  65  |     const envInfo = `
+  66  | Browser: ${browser}
+  67  | OS: ${os}
+  68  | Execution Time: ${new Date().toISOString()}
+  69  | Node Version: ${process.version}
+  70  |     `.trim();
+  71  | 
+> 72  |     allure.attachment('Environment Info', envInfo, {
+      |            ^ TypeError: allure.attachment is not a function
+  73  |       contentType: 'text/plain',
+  74  |     });
+  75  |   }
+  76  | 
+  77  |   /**
+  78  |    * Set test severity level
+  79  |    * @param {string} severity - One of: 'blocker', 'critical', 'normal', 'minor', 'trivial'
+  80  |    */
+  81  |   static setSeverity(severity) {
+  82  |     allure.severity(severity);
+  83  |   }
+  84  | 
+  85  |   /**
+  86  |    * Add test tag/label
+  87  |    * @param {string} tag - Tag name
+  88  |    */
+  89  |   static addTag(tag) {
+  90  |     allure.tag(tag);
+  91  |   }
+  92  | 
+  93  |   /**
+  94  |    * Add test description
+  95  |    * @param {string} description - Test description
+  96  |    */
+  97  |   static setDescription(description) {
+  98  |     allure.description(description);
+  99  |   }
+  100 | 
+  101 |   /**
+  102 |    * Add test story (feature/module)
+  103 |    * @param {string} story - Story/feature name
+  104 |    */
+  105 |   static setStory(story) {
+  106 |     allure.story(story);
+  107 |   }
+  108 | 
+  109 |   /**
+  110 |    * Add test suite/parent feature
+  111 |    * @param {string} feature - Feature name
+  112 |    */
+  113 |   static setFeature(feature) {
+  114 |     allure.feature(feature);
+  115 |   }
+  116 | 
+  117 |   /**
+  118 |    * Attach HTML report/comparison
+  119 |    * @param {string} htmlContent - HTML content
+  120 |    * @param {string} attachmentName - Name of attachment
+  121 |    */
+  122 |   static attachHTML(htmlContent, attachmentName = 'HTML Report') {
+  123 |     allure.attachment(attachmentName, htmlContent, {
+  124 |       contentType: 'text/html',
+  125 |     });
+  126 |   }
+  127 | 
+  128 |   /**
+  129 |    * Attach JSON data
+  130 |    * @param {Object} jsonData - Data to attach
+  131 |    * @param {string} attachmentName - Name of attachment
+  132 |    */
+  133 |   static attachJSON(jsonData, attachmentName = 'JSON Data') {
+  134 |     const jsonString = JSON.stringify(jsonData, null, 2);
+  135 |     allure.attachment(attachmentName, jsonString, {
+  136 |       contentType: 'application/json',
+  137 |     });
+  138 |   }
+  139 | 
+  140 |   /**
+  141 |    * Add link to external resource
+  142 |    * @param {string} url - URL to link
+  143 |    * @param {string} name - Link name
+  144 |    * @param {string} type - Link type ('issue', 'tms', 'custom')
+  145 |    */
+  146 |   static addLink(url, name, type = 'custom') {
+  147 |     allure.link(url, name, type);
+  148 |   }
+  149 | 
+  150 |   /**
+  151 |    * Add parameter to test
+  152 |    * @param {string} name - Parameter name
+  153 |    * @param {string} value - Parameter value
+  154 |    */
+  155 |   static addParameter(name, value) {
+  156 |     allure.parameter(name, value);
+  157 |   }
+  158 | 
+  159 |   /**
+  160 |    * Create a detailed step-by-step test with logging
+  161 |    */
+  162 |   static async executeStep(stepName, stepFunction, context = {}) {
+  163 |     return allure.step(stepName, async () => {
+  164 |       try {
+  165 |         return await stepFunction();
+  166 |       } catch (error) {
+  167 |         allure.attachment('Error Details', JSON.stringify({
+  168 |           message: error.message,
+  169 |           stack: error.stack,
+  170 |           ...context,
+  171 |         }, null, 2), {
+  172 |           contentType: 'application/json',
+```

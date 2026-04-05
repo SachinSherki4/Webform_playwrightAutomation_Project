@@ -1,0 +1,27 @@
+2026-04-05 17:31:49 [info]: Test: BOUND_004 - Phone at minimum valid length
+2026-04-05 17:31:49 [info]: Navigating to form page
+2026-04-05 17:31:49 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:31:50 [info]: Waiting for form to load
+2026-04-05 17:31:50 [info]: Waiting for element: #fullName
+2026-04-05 17:31:50 [info]: Filling complete form with all fields
+2026-04-05 17:31:50 [info]: Entering full name: John Doe
+2026-04-05 17:31:50 [info]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:31:50 [info]: Entering email: test@example.com
+2026-04-05 17:31:50 [info]: Filling input "#email" with value: test@example.com
+2026-04-05 17:31:50 [info]: Entering phone: +1 (555) 001-0001
+2026-04-05 17:31:50 [info]: Filling input "#phone" with value: +1 (555) 001-0001
+2026-04-05 17:31:50 [info]: Entering address: 123 Test St
+2026-04-05 17:31:50 [info]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:31:50 [info]: Entering city: Test City
+2026-04-05 17:31:50 [info]: Filling input "#city" with value: Test City
+2026-04-05 17:31:50 [info]: Entering state: TC
+2026-04-05 17:31:50 [info]: Filling input "#state" with value: TC
+2026-04-05 17:31:50 [info]: Entering country: United States
+2026-04-05 17:31:50 [info]: Filling input "#country" with value: United States
+2026-04-05 17:31:50 [info]: Entering zip code: 12345
+2026-04-05 17:31:50 [info]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:31:50 [info]: Submitting form
+2026-04-05 17:31:50 [info]: Clicking element: #submitBtn
+2026-04-05 17:31:52 [info]: Checking if success message is visible
+2026-04-05 17:31:52 [info]: Element ".alert-success" visible: true
+2026-04-05 17:31:52 [info]: Phone at min length result: success

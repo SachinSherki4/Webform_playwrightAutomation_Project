@@ -1,0 +1,35 @@
+2026-04-05 17:32:26 [info]: Test: DATA_004 - Response message validation
+2026-04-05 17:32:26 [info]: Navigating to form page
+2026-04-05 17:32:26 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:32:26 [info]: Waiting for form to load
+2026-04-05 17:32:26 [info]: Waiting for element: #fullName
+2026-04-05 17:32:26 [info]: Filling complete form with all fields
+2026-04-05 17:32:26 [info]: Entering full name: Jane Doe
+2026-04-05 17:32:26 [info]: Filling input "#fullName" with value: Jane Doe
+2026-04-05 17:32:26 [info]: Entering email: jane@example.com
+2026-04-05 17:32:26 [info]: Filling input "#email" with value: jane@example.com
+2026-04-05 17:32:26 [info]: Entering phone: +1 (555) 987-6543
+2026-04-05 17:32:26 [info]: Filling input "#phone" with value: +1 (555) 987-6543
+2026-04-05 17:32:26 [info]: Entering address: 789 Pine Rd
+2026-04-05 17:32:26 [info]: Filling input "#address" with value: 789 Pine Rd
+2026-04-05 17:32:26 [info]: Entering city: Los Angeles
+2026-04-05 17:32:26 [info]: Filling input "#city" with value: Los Angeles
+2026-04-05 17:32:26 [info]: Entering state: CA
+2026-04-05 17:32:26 [info]: Filling input "#state" with value: CA
+2026-04-05 17:32:26 [info]: Entering country: United States
+2026-04-05 17:32:26 [info]: Filling input "#country" with value: United States
+2026-04-05 17:32:26 [info]: Entering zip code: 90001
+2026-04-05 17:32:26 [info]: Filling input "#zipCode" with value: 90001
+2026-04-05 17:32:26 [info]: Entering notes: Verification test
+2026-04-05 17:32:26 [info]: Filling input "#notes" with value: Verification test
+2026-04-05 17:32:26 [info]: Submitting form
+2026-04-05 17:32:26 [info]: Clicking element: #submitBtn
+2026-04-05 17:32:29 [info]: Getting success message
+2026-04-05 17:32:29 [info]: Waiting for element: .alert-success
+2026-04-05 17:32:29 [info]: Text content from ".alert-success": 
+        Success! Your information has been submitted successfully.
+      
+2026-04-05 17:32:29 [info]: Success message: 
+        Success! Your information has been submitted successfully.
+      
+2026-04-05 17:32:29 [info]: Message contains success keyword: true

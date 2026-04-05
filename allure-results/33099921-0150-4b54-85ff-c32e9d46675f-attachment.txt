@@ -1,0 +1,27 @@
+2026-04-05 17:31:43 [info]: Test: BOUND_003 - Email at max length (254 chars)
+2026-04-05 17:31:43 [info]: Navigating to form page
+2026-04-05 17:31:43 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:31:43 [info]: Waiting for form to load
+2026-04-05 17:31:43 [info]: Waiting for element: #fullName
+2026-04-05 17:31:43 [info]: Filling complete form with all fields
+2026-04-05 17:31:43 [info]: Entering full name: John Doe
+2026-04-05 17:31:43 [info]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:31:43 [info]: Entering email: abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb@cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.example.com
+2026-04-05 17:31:43 [info]: Filling input "#email" with value: abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb@cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.example.com
+2026-04-05 17:31:43 [info]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:31:43 [info]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:31:43 [info]: Entering address: 123 Test St
+2026-04-05 17:31:43 [info]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:31:43 [info]: Entering city: Test City
+2026-04-05 17:31:43 [info]: Filling input "#city" with value: Test City
+2026-04-05 17:31:43 [info]: Entering state: TC
+2026-04-05 17:31:43 [info]: Filling input "#state" with value: TC
+2026-04-05 17:31:44 [info]: Entering country: United States
+2026-04-05 17:31:44 [info]: Filling input "#country" with value: United States
+2026-04-05 17:31:44 [info]: Entering zip code: 12345
+2026-04-05 17:31:44 [info]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:31:44 [info]: Submitting form
+2026-04-05 17:31:44 [info]: Clicking element: #submitBtn
+2026-04-05 17:31:46 [info]: Checking if success message is visible
+2026-04-05 17:31:46 [info]: Element ".alert-success" visible: true
+2026-04-05 17:31:46 [info]: Email at max length result: success

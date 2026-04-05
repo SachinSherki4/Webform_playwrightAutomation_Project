@@ -1,0 +1,6 @@
+2026-04-05 17:33:16 [info]: Test: NEG_004 - All fields empty
+2026-04-05 17:33:16 [info]: Navigating to form page
+2026-04-05 17:33:16 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:33:17 [info]: Waiting for form to load
+2026-04-05 17:33:17 [info]: Waiting for element: #fullName
+2026-04-05 17:33:17 [info]: Form validation blocked for all empty fields

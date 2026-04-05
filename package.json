@@ -1,0 +1,51 @@
+{
+  "name": "webform-automation-playwright",
+  "version": "1.0.0",
+  "description": "Production-Ready Playwright Automation Framework for Web Form Testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed-chrome": "HEADED=1 playwright test --project=chromium --headed --workers=1",
+    "test:headed-firefox": "HEADED=1 playwright test --project=firefox --headed --workers=1",
+    "test:headed-webkit": "HEADED=1 playwright test --project=webkit --headed --workers=1",
+    "test:headed-all": "HEADED=1 playwright test --headed --workers=1",
+    "test:headless": "playwright test --workers=4",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:serial": "playwright test --workers=1",
+    "test:serial-headed": "HEADED=1 playwright test --headed --workers=1",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "allure:report": "allure generate allure-results -o allure-report --clean",
+    "allure:show": "allure open allure-report",
+    "allure:report-show": "npm run allure:report && npm run allure:show",
+    "lint": "eslint .",
+    "setup": "npm install && npx playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "webform",
+    "e2e"
+  ],
+  "author": "QA Automation Team",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@playwright/test": "^1.40.1",
+    "allure-playwright": "^2.14.6",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "@eslint/js": "^8.54.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.1.0",
+    "allure-commandline": "^2.14.6"
+  }
+}

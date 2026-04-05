@@ -1,0 +1,30 @@
+2026-04-05 17:32:14 [info]: Test: DATA_002 - API response validation
+2026-04-05 17:32:14 [info]: Navigating to form page
+2026-04-05 17:32:14 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:32:15 [info]: Waiting for form to load
+2026-04-05 17:32:15 [info]: Waiting for element: #fullName
+2026-04-05 17:32:15 [info]: Filling complete form with all fields
+2026-04-05 17:32:15 [info]: Entering full name: John Doe
+2026-04-05 17:32:15 [info]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:32:15 [info]: Entering email: john@example.com
+2026-04-05 17:32:15 [info]: Filling input "#email" with value: john@example.com
+2026-04-05 17:32:15 [info]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:15 [info]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:15 [info]: Entering address: 123 Main St
+2026-04-05 17:32:15 [info]: Filling input "#address" with value: 123 Main St
+2026-04-05 17:32:15 [info]: Entering city: New York
+2026-04-05 17:32:15 [info]: Filling input "#city" with value: New York
+2026-04-05 17:32:15 [info]: Entering state: NY
+2026-04-05 17:32:15 [info]: Filling input "#state" with value: NY
+2026-04-05 17:32:15 [info]: Entering country: United States
+2026-04-05 17:32:15 [info]: Filling input "#country" with value: United States
+2026-04-05 17:32:15 [info]: Entering zip code: 10001
+2026-04-05 17:32:15 [info]: Filling input "#zipCode" with value: 10001
+2026-04-05 17:32:15 [info]: Entering notes: Test data
+2026-04-05 17:32:15 [info]: Filling input "#notes" with value: Test data
+2026-04-05 17:32:15 [info]: Submitting form
+2026-04-05 17:32:15 [info]: Clicking element: #submitBtn
+2026-04-05 17:32:16 [info]: API Response Status: 201
+2026-04-05 17:32:20 [info]: Checking if success message is visible
+2026-04-05 17:32:20 [info]: Element ".alert-success" visible: true
+2026-04-05 17:32:20 [info]: Form submission successful: true

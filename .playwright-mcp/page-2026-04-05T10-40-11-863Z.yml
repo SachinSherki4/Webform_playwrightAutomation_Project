@@ -1,0 +1,46 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - heading "User Information Form" [level=1] [ref=e5]
+    - paragraph [ref=e6]: Please fill in all the required information below
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]: Full Name *
+      - textbox "Full Name *" [ref=e10]:
+        - /placeholder: John Doe
+    - generic [ref=e11]:
+      - generic [ref=e12]: Email Address *
+      - textbox "Email Address *" [ref=e13]:
+        - /placeholder: john@example.com
+    - generic [ref=e14]:
+      - generic [ref=e15]: Phone Number *
+      - textbox "Phone Number *" [ref=e16]:
+        - /placeholder: (123) 456-7890
+    - generic [ref=e17]:
+      - generic [ref=e18]: Street Address *
+      - textbox "Street Address *" [ref=e19]:
+        - /placeholder: 123 Main Street
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: City *
+        - textbox "City *" [ref=e23]:
+          - /placeholder: New York
+      - generic [ref=e24]:
+        - generic [ref=e25]: State/Province *
+        - textbox "State/Province *" [ref=e26]:
+          - /placeholder: NY
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: Country *
+        - textbox "Country *" [ref=e30]:
+          - /placeholder: United States
+      - generic [ref=e31]:
+        - generic [ref=e32]: Zip Code *
+        - textbox "Zip Code *" [ref=e33]:
+          - /placeholder: "10001"
+    - generic [ref=e34]:
+      - generic [ref=e35]: Additional Notes
+      - textbox "Additional Notes" [ref=e36]:
+        - /placeholder: Any additional information you'd like to share (optional)
+    - button "Submit Form" [ref=e37] [cursor=pointer]:
+      - generic [ref=e38]: Submit Form
+  - button "View All Submissions" [ref=e40] [cursor=pointer]

@@ -1,0 +1,1220 @@
+<testsuites id="" name="" tests="45" failures="0" skipped="17" errors="0" time="3512.064009">
+<testsuite name="formBoundary.spec.js" timestamp="2026-04-05T12:01:22.564Z" hostname="chromium" tests="7" failures="0" skipped="0" time="35.795" errors="0">
+<testcase name="Form Boundary Test Scenarios › BOUND_001 - Name field at exact maximum length boundary" classname="formBoundary.spec.js" time="14.388">
+<system-out>
+<![CDATA[2026-04-05 17:31:38 [[32minfo[39m]: Test: BOUND_001 - Name at max boundary (255 chars)
+2026-04-05 17:31:38 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:31:38 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:31:39 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:31:39 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:31:39 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:31:39 [[32minfo[39m]: Entering full name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-04-05 17:31:39 [[32minfo[39m]: Filling input "#fullName" with value: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-04-05 17:31:39 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:31:39 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:31:39 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:31:39 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:31:39 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:31:39 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:31:39 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:31:39 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:31:39 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:31:39 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:31:39 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:31:39 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:31:40 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:31:40 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:31:40 [[32minfo[39m]: Name at max boundary attempted
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-2bedc-act-maximum-length-boundary-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-2bedc-act-maximum-length-boundary-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-2bedc-act-maximum-length-boundary-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Boundary Test Scenarios › BOUND_002 - Name field exceeding maximum length" classname="formBoundary.spec.js" time="1.805">
+<system-out>
+<![CDATA[2026-04-05 17:31:41 [[32minfo[39m]: Test: BOUND_002 - Name exceeding max (256 chars)
+2026-04-05 17:31:41 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:31:41 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:31:41 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:31:41 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:31:41 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:31:41 [[32minfo[39m]: Entering full name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-04-05 17:31:41 [[32minfo[39m]: Filling input "#fullName" with value: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-04-05 17:31:41 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:31:41 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:31:41 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:31:41 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:31:41 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:31:41 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:31:41 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:31:41 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:31:41 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:31:41 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:31:42 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:31:42 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:31:42 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:31:42 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:31:42 [[32minfo[39m]: Name exceeding max attempted
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-6ee80-ld-exceeding-maximum-length-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-6ee80-ld-exceeding-maximum-length-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-6ee80-ld-exceeding-maximum-length-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Boundary Test Scenarios › BOUND_003 - Email field at maximum valid length (254 chars)" classname="formBoundary.spec.js" time="4.701">
+<system-out>
+<![CDATA[2026-04-05 17:31:43 [[32minfo[39m]: Test: BOUND_003 - Email at max length (254 chars)
+2026-04-05 17:31:43 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:31:43 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:31:43 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:31:43 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:31:43 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:31:43 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:31:43 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:31:43 [[32minfo[39m]: Entering email: abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb@cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.example.com
+2026-04-05 17:31:43 [[32minfo[39m]: Filling input "#email" with value: abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb@cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.example.com
+2026-04-05 17:31:43 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:31:43 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:31:43 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:31:43 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:31:43 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:31:43 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:31:43 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:31:43 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:31:44 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:31:44 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:31:44 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:31:44 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:31:44 [[32minfo[39m]: Submitting form
+2026-04-05 17:31:44 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:31:46 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:31:46 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:31:46 [[32minfo[39m]: Email at max length result: success
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-f78ad-mum-valid-length-254-chars--chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-f78ad-mum-valid-length-254-chars--chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-f78ad-mum-valid-length-254-chars--chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Boundary Test Scenarios › BOUND_004 - Phone field at minimum valid length" classname="formBoundary.spec.js" time="3.584">
+<system-out>
+<![CDATA[2026-04-05 17:31:49 [[32minfo[39m]: Test: BOUND_004 - Phone at minimum valid length
+2026-04-05 17:31:49 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:31:49 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:31:50 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:31:50 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:31:50 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:31:50 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:31:50 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:31:50 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:31:50 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:31:50 [[32minfo[39m]: Entering phone: +1 (555) 001-0001
+2026-04-05 17:31:50 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 001-0001
+2026-04-05 17:31:50 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:31:50 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:31:50 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:31:50 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:31:50 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:31:50 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:31:50 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:31:50 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:31:50 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:31:50 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:31:50 [[32minfo[39m]: Submitting form
+2026-04-05 17:31:50 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:31:52 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:31:52 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:31:52 [[32minfo[39m]: Phone at min length result: success
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-f4592-eld-at-minimum-valid-length-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-f4592-eld-at-minimum-valid-length-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-f4592-eld-at-minimum-valid-length-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Boundary Test Scenarios › BOUND_005 - Phone field at maximum valid length" classname="formBoundary.spec.js" time="4.034">
+<system-out>
+<![CDATA[2026-04-05 17:31:53 [[32minfo[39m]: Test: BOUND_005 - Phone at maximum valid length
+2026-04-05 17:31:53 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:31:53 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:31:53 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:31:53 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:31:53 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:31:53 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:31:53 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:31:54 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:31:54 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:31:54 [[32minfo[39m]: Entering phone: +1 (555) 999-9999
+2026-04-05 17:31:54 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 999-9999
+2026-04-05 17:31:54 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:31:54 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:31:54 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:31:54 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:31:54 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:31:54 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:31:54 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:31:54 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:31:54 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:31:54 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:31:54 [[32minfo[39m]: Submitting form
+2026-04-05 17:31:54 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:31:56 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:31:56 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:31:56 [[32minfo[39m]: Phone at max length result: success
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-63ec7-eld-at-maximum-valid-length-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-63ec7-eld-at-maximum-valid-length-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-63ec7-eld-at-maximum-valid-length-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Boundary Test Scenarios › BOUND_006 - Email field at minimum valid length" classname="formBoundary.spec.js" time="3.664">
+<system-out>
+<![CDATA[2026-04-05 17:31:57 [[32minfo[39m]: Test: BOUND_006 - Email at minimum valid length
+2026-04-05 17:31:57 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:31:57 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:31:58 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:31:58 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:31:58 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:31:58 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:31:58 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:31:58 [[32minfo[39m]: Entering email: a@b.co
+2026-04-05 17:31:58 [[32minfo[39m]: Filling input "#email" with value: a@b.co
+2026-04-05 17:31:58 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:31:58 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:31:58 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:31:58 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:31:58 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:31:58 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:31:58 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:31:58 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:31:58 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:31:58 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:31:58 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:31:58 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:31:58 [[32minfo[39m]: Submitting form
+2026-04-05 17:31:58 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:00 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:00 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:00 [[32minfo[39m]: Email at min length result: success
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-adea3-eld-at-minimum-valid-length-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-adea3-eld-at-minimum-valid-length-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-adea3-eld-at-minimum-valid-length-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Boundary Test Scenarios › BOUND_007 - Name field at minimum valid length" classname="formBoundary.spec.js" time="3.619">
+<system-out>
+<![CDATA[2026-04-05 17:32:01 [[32minfo[39m]: Test: BOUND_007 - Name at minimum valid length
+2026-04-05 17:32:01 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:01 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:02 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:02 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:02 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:02 [[32minfo[39m]: Entering full name: A
+2026-04-05 17:32:02 [[32minfo[39m]: Filling input "#fullName" with value: A
+2026-04-05 17:32:02 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:32:02 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:02 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:02 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:02 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:32:02 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:02 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:32:02 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:32:02 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:32:02 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:32:02 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:02 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:02 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:02 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:02 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:02 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:04 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:04 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:04 [[32minfo[39m]: Name at min length result: success
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-8deab-eld-at-minimum-valid-length-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-8deab-eld-at-minimum-valid-length-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formBoundary-Form-Boundary-8deab-eld-at-minimum-valid-length-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="formDataConsistency.spec.js" timestamp="2026-04-05T12:01:22.564Z" hostname="chromium" tests="5" failures="0" skipped="0" time="26.202" errors="0">
+<testcase name="Form Data Consistency Test Scenarios › DATA_001 - Duplicate form submission handling" classname="formDataConsistency.spec.js" time="8.715">
+<system-out>
+<![CDATA[2026-04-05 17:32:05 [[32minfo[39m]: Test: DATA_001 - Duplicate submission
+2026-04-05 17:32:05 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:05 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:05 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:05 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:06 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:06 [[32minfo[39m]: Entering full name: John Duplicate
+2026-04-05 17:32:06 [[32minfo[39m]: Filling input "#fullName" with value: John Duplicate
+2026-04-05 17:32:06 [[32minfo[39m]: Entering email: duplicate@example.com
+2026-04-05 17:32:06 [[32minfo[39m]: Filling input "#email" with value: duplicate@example.com
+2026-04-05 17:32:06 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:06 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:06 [[32minfo[39m]: Entering address: 123 Duplicate St
+2026-04-05 17:32:06 [[32minfo[39m]: Filling input "#address" with value: 123 Duplicate St
+2026-04-05 17:32:06 [[32minfo[39m]: Entering city: Duplicate City
+2026-04-05 17:32:06 [[32minfo[39m]: Filling input "#city" with value: Duplicate City
+2026-04-05 17:32:06 [[32minfo[39m]: Entering state: DC
+2026-04-05 17:32:06 [[32minfo[39m]: Filling input "#state" with value: DC
+2026-04-05 17:32:06 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:06 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:06 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:06 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:06 [[32minfo[39m]: Entering notes: First submission
+2026-04-05 17:32:06 [[32minfo[39m]: Filling input "#notes" with value: First submission
+2026-04-05 17:32:06 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:06 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:09 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:09 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:09 [[32minfo[39m]: First submission result: success
+2026-04-05 17:32:09 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:09 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:10 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:10 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:10 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:10 [[32minfo[39m]: Entering full name: John Duplicate
+2026-04-05 17:32:10 [[32minfo[39m]: Filling input "#fullName" with value: John Duplicate
+2026-04-05 17:32:10 [[32minfo[39m]: Entering email: duplicate@example.com
+2026-04-05 17:32:10 [[32minfo[39m]: Filling input "#email" with value: duplicate@example.com
+2026-04-05 17:32:10 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:10 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:10 [[32minfo[39m]: Entering address: 123 Duplicate St
+2026-04-05 17:32:10 [[32minfo[39m]: Filling input "#address" with value: 123 Duplicate St
+2026-04-05 17:32:10 [[32minfo[39m]: Entering city: Duplicate City
+2026-04-05 17:32:10 [[32minfo[39m]: Filling input "#city" with value: Duplicate City
+2026-04-05 17:32:10 [[32minfo[39m]: Entering state: DC
+2026-04-05 17:32:10 [[32minfo[39m]: Filling input "#state" with value: DC
+2026-04-05 17:32:10 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:10 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:10 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:10 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:10 [[32minfo[39m]: Entering notes: Second submission
+2026-04-05 17:32:10 [[32minfo[39m]: Filling input "#notes" with value: Second submission
+2026-04-05 17:32:10 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:10 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:13 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:13 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:13 [[32minfo[39m]: Second submission result: success
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-016a8-te-form-submission-handling-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-016a8-te-form-submission-handling-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-016a8-te-form-submission-handling-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Data Consistency Test Scenarios › DATA_002 - API response status code validation" classname="formDataConsistency.spec.js" time="6.546">
+<system-out>
+<![CDATA[2026-04-05 17:32:14 [[32minfo[39m]: Test: DATA_002 - API response validation
+2026-04-05 17:32:14 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:14 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:15 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:15 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:15 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:15 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:32:15 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:32:15 [[32minfo[39m]: Entering email: john@example.com
+2026-04-05 17:32:15 [[32minfo[39m]: Filling input "#email" with value: john@example.com
+2026-04-05 17:32:15 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:15 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:15 [[32minfo[39m]: Entering address: 123 Main St
+2026-04-05 17:32:15 [[32minfo[39m]: Filling input "#address" with value: 123 Main St
+2026-04-05 17:32:15 [[32minfo[39m]: Entering city: New York
+2026-04-05 17:32:15 [[32minfo[39m]: Filling input "#city" with value: New York
+2026-04-05 17:32:15 [[32minfo[39m]: Entering state: NY
+2026-04-05 17:32:15 [[32minfo[39m]: Filling input "#state" with value: NY
+2026-04-05 17:32:15 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:15 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:15 [[32minfo[39m]: Entering zip code: 10001
+2026-04-05 17:32:15 [[32minfo[39m]: Filling input "#zipCode" with value: 10001
+2026-04-05 17:32:15 [[32minfo[39m]: Entering notes: Test data
+2026-04-05 17:32:15 [[32minfo[39m]: Filling input "#notes" with value: Test data
+2026-04-05 17:32:15 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:15 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:16 [[32minfo[39m]: API Response Status: 201
+2026-04-05 17:32:20 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:20 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:20 [[32minfo[39m]: Form submission successful: true
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-bfc99-onse-status-code-validation-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-bfc99-onse-status-code-validation-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-bfc99-onse-status-code-validation-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Data Consistency Test Scenarios › DATA_003 - Form state after successful submission" classname="formDataConsistency.spec.js" time="4.498">
+<system-out>
+<![CDATA[2026-04-05 17:32:21 [[32minfo[39m]: Test: DATA_003 - Form state verification
+2026-04-05 17:32:21 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:21 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:21 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:21 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:21 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:21 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:32:21 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:32:21 [[32minfo[39m]: Entering email: john@example.com
+2026-04-05 17:32:21 [[32minfo[39m]: Filling input "#email" with value: john@example.com
+2026-04-05 17:32:21 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:21 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:22 [[32minfo[39m]: Entering address: 456 Oak Ave
+2026-04-05 17:32:22 [[32minfo[39m]: Filling input "#address" with value: 456 Oak Ave
+2026-04-05 17:32:22 [[32minfo[39m]: Entering city: Boston
+2026-04-05 17:32:22 [[32minfo[39m]: Filling input "#city" with value: Boston
+2026-04-05 17:32:22 [[32minfo[39m]: Entering state: MA
+2026-04-05 17:32:22 [[32minfo[39m]: Filling input "#state" with value: MA
+2026-04-05 17:32:22 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:22 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:22 [[32minfo[39m]: Entering zip code: 02101
+2026-04-05 17:32:22 [[32minfo[39m]: Filling input "#zipCode" with value: 02101
+2026-04-05 17:32:22 [[32minfo[39m]: Entering notes: Test notes
+2026-04-05 17:32:22 [[32minfo[39m]: Filling input "#notes" with value: Test notes
+2026-04-05 17:32:22 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:22 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:25 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:25 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:25 [[32minfo[39m]: Getting form field values
+2026-04-05 17:32:25 [[32minfo[39m]: Form values after submission: {"fullName":"","email":"","phone":"","address":"","city":"","state":"","country":"","zipCode":"","notes":""}
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-e3c24-after-successful-submission-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-e3c24-after-successful-submission-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-e3c24-after-successful-submission-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Data Consistency Test Scenarios › DATA_004 - Success response message content validation" classname="formDataConsistency.spec.js" time="4.406">
+<system-out>
+<![CDATA[2026-04-05 17:32:26 [[32minfo[39m]: Test: DATA_004 - Response message validation
+2026-04-05 17:32:26 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:26 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:26 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:26 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:26 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:26 [[32minfo[39m]: Entering full name: Jane Doe
+2026-04-05 17:32:26 [[32minfo[39m]: Filling input "#fullName" with value: Jane Doe
+2026-04-05 17:32:26 [[32minfo[39m]: Entering email: jane@example.com
+2026-04-05 17:32:26 [[32minfo[39m]: Filling input "#email" with value: jane@example.com
+2026-04-05 17:32:26 [[32minfo[39m]: Entering phone: +1 (555) 987-6543
+2026-04-05 17:32:26 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 987-6543
+2026-04-05 17:32:26 [[32minfo[39m]: Entering address: 789 Pine Rd
+2026-04-05 17:32:26 [[32minfo[39m]: Filling input "#address" with value: 789 Pine Rd
+2026-04-05 17:32:26 [[32minfo[39m]: Entering city: Los Angeles
+2026-04-05 17:32:26 [[32minfo[39m]: Filling input "#city" with value: Los Angeles
+2026-04-05 17:32:26 [[32minfo[39m]: Entering state: CA
+2026-04-05 17:32:26 [[32minfo[39m]: Filling input "#state" with value: CA
+2026-04-05 17:32:26 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:26 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:26 [[32minfo[39m]: Entering zip code: 90001
+2026-04-05 17:32:26 [[32minfo[39m]: Filling input "#zipCode" with value: 90001
+2026-04-05 17:32:26 [[32minfo[39m]: Entering notes: Verification test
+2026-04-05 17:32:26 [[32minfo[39m]: Filling input "#notes" with value: Verification test
+2026-04-05 17:32:26 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:26 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:29 [[32minfo[39m]: Getting success message
+2026-04-05 17:32:29 [[32minfo[39m]: Waiting for element: .alert-success
+2026-04-05 17:32:29 [[32minfo[39m]: Text content from ".alert-success": 
+        Success! Your information has been submitted successfully.
+      
+2026-04-05 17:32:29 [[32minfo[39m]: Success message: 
+        Success! Your information has been submitted successfully.
+      
+2026-04-05 17:32:29 [[32minfo[39m]: Message contains success keyword: true
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-5bb4c--message-content-validation-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-5bb4c--message-content-validation-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-5bb4c--message-content-validation-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Data Consistency Test Scenarios › DATA_005 - Data persistence after page navigation" classname="formDataConsistency.spec.js" time="2.037">
+<system-out>
+<![CDATA[2026-04-05 17:32:30 [[32minfo[39m]: Test: DATA_005 - Data persistence
+2026-04-05 17:32:30 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:30 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:31 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:31 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:31 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:31 [[32minfo[39m]: Entering full name: Test Persistence
+2026-04-05 17:32:31 [[32minfo[39m]: Filling input "#fullName" with value: Test Persistence
+2026-04-05 17:32:31 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:32:31 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:31 [[32minfo[39m]: Entering phone: +1 (555) 111-1111
+2026-04-05 17:32:31 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 111-1111
+2026-04-05 17:32:31 [[32minfo[39m]: Entering address: 999 Test Lane
+2026-04-05 17:32:31 [[32minfo[39m]: Filling input "#address" with value: 999 Test Lane
+2026-04-05 17:32:31 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:32:31 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:32:31 [[32minfo[39m]: Entering state: TS
+2026-04-05 17:32:31 [[32minfo[39m]: Filling input "#state" with value: TS
+2026-04-05 17:32:31 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:31 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:31 [[32minfo[39m]: Entering zip code: 99999
+2026-04-05 17:32:31 [[32minfo[39m]: Filling input "#zipCode" with value: 99999
+2026-04-05 17:32:31 [[32minfo[39m]: Entering notes: Persistence test
+2026-04-05 17:32:31 [[32minfo[39m]: Filling input "#notes" with value: Persistence test
+2026-04-05 17:32:31 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:31 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:32 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:32 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:32 [[32minfo[39m]: Getting form field values
+2026-04-05 17:32:32 [[32minfo[39m]: Form values after navigation: {"fullName":"","email":"","phone":"","address":"","city":"","state":"","country":"","zipCode":"","notes":""}
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-83a8a-tence-after-page-navigation-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-83a8a-tence-after-page-navigation-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formDataConsistency-Form-D-83a8a-tence-after-page-navigation-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="formEdgeCases.spec.js" timestamp="2026-04-05T12:01:22.564Z" hostname="chromium" tests="7" failures="0" skipped="0" time="37.475" errors="0">
+<testcase name="Form Edge Case Scenarios › EDGE_001 - Submit form with single character name" classname="formEdgeCases.spec.js" time="3.428">
+<system-out>
+<![CDATA[2026-04-05 17:32:32 [[32minfo[39m]: Test: EDGE_001 - Single character name
+2026-04-05 17:32:32 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:32 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:33 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:33 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:33 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:33 [[32minfo[39m]: Entering full name: A
+2026-04-05 17:32:33 [[32minfo[39m]: Filling input "#fullName" with value: A
+2026-04-05 17:32:33 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:32:33 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:33 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:33 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:33 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:32:33 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:33 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:32:33 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:32:33 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:32:33 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:32:33 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:33 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:33 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:33 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:33 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:33 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:35 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:35 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:35 [[32minfo[39m]: Single character name result: success
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-324cf--with-single-character-name-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-324cf--with-single-character-name-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-324cf--with-single-character-name-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Edge Case Scenarios › EDGE_002 - Submit form with maximum length name (255 chars)" classname="formEdgeCases.spec.js" time="3.595">
+<system-out>
+<![CDATA[2026-04-05 17:32:36 [[32minfo[39m]: Test: EDGE_002 - Maximum length name
+2026-04-05 17:32:36 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:36 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:37 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:37 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:37 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:37 [[32minfo[39m]: Entering full name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-04-05 17:32:37 [[32minfo[39m]: Filling input "#fullName" with value: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-04-05 17:32:37 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:32:37 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:37 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:37 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:37 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:32:37 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:37 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:32:37 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:32:37 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:32:37 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:32:37 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:37 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:37 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:37 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:37 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:37 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:39 [[32minfo[39m]: Long name (255 chars) submission attempted
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-381e2-imum-length-name-255-chars--chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-381e2-imum-length-name-255-chars--chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-381e2-imum-length-name-255-chars--chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Edge Case Scenarios › EDGE_003 - Submit form with hyphenated name" classname="formEdgeCases.spec.js" time="3.404">
+<system-out>
+<![CDATA[2026-04-05 17:32:40 [[32minfo[39m]: Test: EDGE_003 - Hyphenated name
+2026-04-05 17:32:40 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:40 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:40 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:40 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:40 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:40 [[32minfo[39m]: Entering full name: Jean-Pierre Dupont
+2026-04-05 17:32:40 [[32minfo[39m]: Filling input "#fullName" with value: Jean-Pierre Dupont
+2026-04-05 17:32:40 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:32:40 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:40 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:40 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:40 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:32:40 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:40 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:32:40 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:32:41 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:32:41 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:32:41 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:41 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:41 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:41 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:41 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:41 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:43 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:43 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:43 [[32minfo[39m]: Hyphenated name accepted
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-677b5-t-form-with-hyphenated-name-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-677b5-t-form-with-hyphenated-name-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-677b5-t-form-with-hyphenated-name-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Edge Case Scenarios › EDGE_004 - Submit form with multiple spaces in name" classname="formEdgeCases.spec.js" time="3.524">
+<system-out>
+<![CDATA[2026-04-05 17:32:43 [[32minfo[39m]: Test: EDGE_004 - Multiple spaces in name
+2026-04-05 17:32:43 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:43 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:44 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:44 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:44 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:44 [[32minfo[39m]: Entering full name: John    Doe
+2026-04-05 17:32:44 [[32minfo[39m]: Filling input "#fullName" with value: John    Doe
+2026-04-05 17:32:44 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:32:44 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:44 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:44 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:44 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:32:44 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:44 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:32:44 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:32:44 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:32:44 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:32:44 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:44 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:44 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:44 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:44 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:44 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:46 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:46 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:46 [[32minfo[39m]: Multiple spaces in name result: success
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-ad512-ith-multiple-spaces-in-name-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-ad512-ith-multiple-spaces-in-name-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-ad512-ith-multiple-spaces-in-name-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Edge Case Scenarios › EDGE_005 - Submit form with email containing subdomain" classname="formEdgeCases.spec.js" time="3.585">
+<system-out>
+<![CDATA[2026-04-05 17:32:48 [[32minfo[39m]: Test: EDGE_005 - Email with subdomain
+2026-04-05 17:32:48 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:48 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:48 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:48 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:48 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:48 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:32:48 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:32:48 [[32minfo[39m]: Entering email: test@mail.subdomain.example.com
+2026-04-05 17:32:48 [[32minfo[39m]: Filling input "#email" with value: test@mail.subdomain.example.com
+2026-04-05 17:32:48 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:32:48 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:32:48 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:32:48 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:48 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:32:48 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:32:48 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:32:48 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:32:48 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:48 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:48 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:48 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:48 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:48 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:50 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:50 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:50 [[32minfo[39m]: Email with subdomain result: success
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-b3d59--email-containing-subdomain-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-b3d59--email-containing-subdomain-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-b3d59--email-containing-subdomain-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Edge Case Scenarios › EDGE_006 - Submit form with different phone formats" classname="formEdgeCases.spec.js" time="15.414">
+<system-out>
+<![CDATA[2026-04-05 17:32:51 [[32minfo[39m]: Test: EDGE_006 - Different phone formats
+2026-04-05 17:32:51 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:51 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:52 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:52 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:52 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:52 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:32:52 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:32:52 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:32:52 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:52 [[32minfo[39m]: Entering phone: 555-123-4567
+2026-04-05 17:32:52 [[32minfo[39m]: Filling input "#phone" with value: 555-123-4567
+2026-04-05 17:32:52 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:32:52 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:52 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:32:52 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:32:52 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:32:52 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:32:52 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:52 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:52 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:52 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:52 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:52 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:54 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:54 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:54 [[32minfo[39m]: Phone format "555-123-4567" result: success
+2026-04-05 17:32:54 [[32minfo[39m]: Resetting form
+2026-04-05 17:32:54 [[32minfo[39m]: Clearing all input fields
+2026-04-05 17:32:54 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:54 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:55 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:55 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:55 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:55 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:32:55 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:32:55 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:32:55 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:55 [[32minfo[39m]: Entering phone: (555) 123-4567
+2026-04-05 17:32:55 [[32minfo[39m]: Filling input "#phone" with value: (555) 123-4567
+2026-04-05 17:32:55 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:32:55 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:55 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:32:55 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:32:55 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:32:55 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:32:55 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:55 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:55 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:55 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:55 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:55 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:32:57 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:32:57 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:32:57 [[32minfo[39m]: Phone format "(555) 123-4567" result: success
+2026-04-05 17:32:57 [[32minfo[39m]: Resetting form
+2026-04-05 17:32:57 [[32minfo[39m]: Clearing all input fields
+2026-04-05 17:32:58 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:32:58 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:32:58 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:32:58 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:32:58 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:32:58 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:32:58 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:32:58 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:32:58 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:58 [[32minfo[39m]: Entering phone: 5551234567
+2026-04-05 17:32:58 [[32minfo[39m]: Filling input "#phone" with value: 5551234567
+2026-04-05 17:32:58 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:32:58 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:32:58 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:32:58 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:32:58 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:32:58 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:32:58 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:32:58 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:32:59 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:32:59 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:32:59 [[32minfo[39m]: Submitting form
+2026-04-05 17:32:59 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:33:01 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:33:01 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:33:01 [[32minfo[39m]: Phone format "5551234567" result: success
+2026-04-05 17:33:01 [[32minfo[39m]: Resetting form
+2026-04-05 17:33:01 [[32minfo[39m]: Clearing all input fields
+2026-04-05 17:33:01 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:01 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:02 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:02 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:02 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:33:02 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:33:02 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:33:02 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:33:02 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:33:02 [[32minfo[39m]: Entering phone: +1 555 123 4567
+2026-04-05 17:33:02 [[32minfo[39m]: Filling input "#phone" with value: +1 555 123 4567
+2026-04-05 17:33:02 [[32minfo[39m]: Entering address: 123 Test St
+2026-04-05 17:33:02 [[32minfo[39m]: Filling input "#address" with value: 123 Test St
+2026-04-05 17:33:02 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:33:02 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:33:02 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:33:02 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:33:02 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:33:02 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:33:02 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:33:02 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:33:02 [[32minfo[39m]: Submitting form
+2026-04-05 17:33:02 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:33:04 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:33:04 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:33:04 [[32minfo[39m]: Phone format "+1 555 123 4567" result: success
+2026-04-05 17:33:04 [[32minfo[39m]: Resetting form
+2026-04-05 17:33:04 [[32minfo[39m]: Clearing all input fields
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-c7f5e-ith-different-phone-formats-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-c7f5e-ith-different-phone-formats-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-c7f5e-ith-different-phone-formats-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Edge Case Scenarios › EDGE_007 - Submit form with leading and trailing whitespace" classname="formEdgeCases.spec.js" time="4.525">
+<system-out>
+<![CDATA[2026-04-05 17:33:07 [[32minfo[39m]: Test: EDGE_007 - Leading/trailing whitespace
+2026-04-05 17:33:07 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:07 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:08 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:08 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:08 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:33:08 [[32minfo[39m]: Entering full name:   John Doe  
+2026-04-05 17:33:08 [[32minfo[39m]: Filling input "#fullName" with value:   John Doe  
+2026-04-05 17:33:08 [[32minfo[39m]: Entering email:   test@example.com  
+2026-04-05 17:33:08 [[32minfo[39m]: Filling input "#email" with value:   test@example.com  
+2026-04-05 17:33:08 [[32minfo[39m]: Entering phone:   +1 (555) 123-4567  
+2026-04-05 17:33:08 [[32minfo[39m]: Filling input "#phone" with value:   +1 (555) 123-4567  
+2026-04-05 17:33:08 [[32minfo[39m]: Entering address:   123 Test St  
+2026-04-05 17:33:08 [[32minfo[39m]: Filling input "#address" with value:   123 Test St  
+2026-04-05 17:33:08 [[32minfo[39m]: Entering city:   Test City  
+2026-04-05 17:33:08 [[32minfo[39m]: Filling input "#city" with value:   Test City  
+2026-04-05 17:33:08 [[32minfo[39m]: Entering state:   TC  
+2026-04-05 17:33:08 [[32minfo[39m]: Filling input "#state" with value:   TC  
+2026-04-05 17:33:08 [[32minfo[39m]: Entering country:   United States  
+2026-04-05 17:33:08 [[32minfo[39m]: Filling input "#country" with value:   United States  
+2026-04-05 17:33:08 [[32minfo[39m]: Entering zip code:   12345  
+2026-04-05 17:33:08 [[32minfo[39m]: Filling input "#zipCode" with value:   12345  
+2026-04-05 17:33:08 [[32minfo[39m]: Entering notes:   notes  
+2026-04-05 17:33:08 [[32minfo[39m]: Filling input "#notes" with value:   notes  
+2026-04-05 17:33:08 [[32minfo[39m]: Submitting form
+2026-04-05 17:33:08 [[32minfo[39m]: Clicking element: #submitBtn
+2026-04-05 17:33:11 [[32minfo[39m]: Checking if success message is visible
+2026-04-05 17:33:11 [[32minfo[39m]: Element ".alert-success" visible: true
+2026-04-05 17:33:11 [[32minfo[39m]: Whitespace trimming result: success
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-809f2-ing-and-trailing-whitespace-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-809f2-ing-and-trailing-whitespace-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formEdgeCases-Form-Edge-Ca-809f2-ing-and-trailing-whitespace-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="formNegative.spec.js" timestamp="2026-04-05T12:01:22.564Z" hostname="chromium" tests="9" failures="0" skipped="0" time="12.302" errors="0">
+<testcase name="Form Negative Scenarios - Validation Errors › NEG_001 - Submit form without full name" classname="formNegative.spec.js" time="1.338">
+<system-out>
+<![CDATA[2026-04-05 17:33:12 [[32minfo[39m]: Test: NEG_001 - Empty full name field
+2026-04-05 17:33:12 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:12 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:13 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:13 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:13 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:33:13 [[32minfo[39m]: Entering full name: 
+2026-04-05 17:33:13 [[32minfo[39m]: Filling input "#fullName" with value: 
+2026-04-05 17:33:13 [[32minfo[39m]: Entering email: test@example.com
+2026-04-05 17:33:13 [[32minfo[39m]: Filling input "#email" with value: test@example.com
+2026-04-05 17:33:13 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:33:13 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:33:13 [[32minfo[39m]: Entering address: 789 Test Street
+2026-04-05 17:33:13 [[32minfo[39m]: Filling input "#address" with value: 789 Test Street
+2026-04-05 17:33:13 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:33:13 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:33:13 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:33:13 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:33:13 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:33:13 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:33:13 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:33:13 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:33:13 [[32minfo[39m]: Form validation blocked for empty full name field
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-e3c3c-bmit-form-without-full-name-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-e3c3c-bmit-form-without-full-name-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-e3c3c-bmit-form-without-full-name-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Negative Scenarios - Validation Errors › NEG_002 - Submit form without email" classname="formNegative.spec.js" time="1.41">
+<system-out>
+<![CDATA[2026-04-05 17:33:13 [[32minfo[39m]: Test: NEG_002 - Empty email field
+2026-04-05 17:33:13 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:13 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:14 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:14 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:14 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:33:14 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:33:14 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:33:14 [[32minfo[39m]: Entering email: 
+2026-04-05 17:33:14 [[32minfo[39m]: Filling input "#email" with value: 
+2026-04-05 17:33:14 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:33:14 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:33:14 [[32minfo[39m]: Entering address: 789 Test Street
+2026-04-05 17:33:14 [[32minfo[39m]: Filling input "#address" with value: 789 Test Street
+2026-04-05 17:33:14 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:33:14 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:33:14 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:33:14 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:33:14 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:33:14 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:33:14 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:33:14 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:33:14 [[32minfo[39m]: Form validation blocked for empty email field
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-dd9a2---Submit-form-without-email-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-dd9a2---Submit-form-without-email-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-dd9a2---Submit-form-without-email-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Negative Scenarios - Validation Errors › NEG_003 - Submit form without phone" classname="formNegative.spec.js" time="1.382">
+<system-out>
+<![CDATA[2026-04-05 17:33:15 [[32minfo[39m]: Test: NEG_003 - Empty phone field
+2026-04-05 17:33:15 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:15 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:16 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:16 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:16 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:33:16 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:33:16 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:33:16 [[32minfo[39m]: Entering email: john@example.com
+2026-04-05 17:33:16 [[32minfo[39m]: Filling input "#email" with value: john@example.com
+2026-04-05 17:33:16 [[32minfo[39m]: Entering phone: 
+2026-04-05 17:33:16 [[32minfo[39m]: Filling input "#phone" with value: 
+2026-04-05 17:33:16 [[32minfo[39m]: Entering address: 789 Test Street
+2026-04-05 17:33:16 [[32minfo[39m]: Filling input "#address" with value: 789 Test Street
+2026-04-05 17:33:16 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:33:16 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:33:16 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:33:16 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:33:16 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:33:16 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:33:16 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:33:16 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:33:16 [[32minfo[39m]: Form validation blocked for empty phone field
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-07c04---Submit-form-without-phone-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-07c04---Submit-form-without-phone-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-07c04---Submit-form-without-phone-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Negative Scenarios - Validation Errors › NEG_004 - Submit completely empty form" classname="formNegative.spec.js" time="1.064">
+<system-out>
+<![CDATA[2026-04-05 17:33:16 [[32minfo[39m]: Test: NEG_004 - All fields empty
+2026-04-05 17:33:16 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:16 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:17 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:17 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:17 [[32minfo[39m]: Form validation blocked for all empty fields
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-ad18e-ubmit-completely-empty-form-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-ad18e-ubmit-completely-empty-form-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-ad18e-ubmit-completely-empty-form-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Negative Scenarios - Validation Errors › NEG_005 - Submit form with invalid email (missing @)" classname="formNegative.spec.js" time="1.408">
+<system-out>
+<![CDATA[2026-04-05 17:33:18 [[32minfo[39m]: Test: NEG_005 - Invalid email format (no @)
+2026-04-05 17:33:18 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:18 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:18 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:18 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:18 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:33:18 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:33:18 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:33:18 [[32minfo[39m]: Entering email: invalidemail
+2026-04-05 17:33:18 [[32minfo[39m]: Filling input "#email" with value: invalidemail
+2026-04-05 17:33:18 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:33:18 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:33:18 [[32minfo[39m]: Entering address: 789 Test Street
+2026-04-05 17:33:18 [[32minfo[39m]: Filling input "#address" with value: 789 Test Street
+2026-04-05 17:33:18 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:33:18 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:33:18 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:33:18 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:33:18 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:33:18 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:33:19 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:33:19 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:33:19 [[32minfo[39m]: Form validation blocked for invalid email format
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-4f364-with-invalid-email-missing--chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-4f364-with-invalid-email-missing--chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-4f364-with-invalid-email-missing--chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Negative Scenarios - Validation Errors › NEG_006 - Submit form with email missing domain" classname="formNegative.spec.js" time="1.504">
+<system-out>
+<![CDATA[2026-04-05 17:33:19 [[32minfo[39m]: Test: NEG_006 - Invalid email format (missing domain)
+2026-04-05 17:33:19 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:19 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:20 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:20 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:20 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:33:20 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:33:20 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:33:20 [[32minfo[39m]: Entering email: test@
+2026-04-05 17:33:20 [[32minfo[39m]: Filling input "#email" with value: test@
+2026-04-05 17:33:20 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:33:20 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:33:20 [[32minfo[39m]: Entering address: 789 Test Street
+2026-04-05 17:33:20 [[32minfo[39m]: Filling input "#address" with value: 789 Test Street
+2026-04-05 17:33:20 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:33:20 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:33:20 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:33:20 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:33:20 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:33:20 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:33:20 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:33:20 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:33:20 [[32minfo[39m]: Form validation blocked for email with missing domain
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-ba227-m-with-email-missing-domain-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-ba227-m-with-email-missing-domain-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-ba227-m-with-email-missing-domain-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Negative Scenarios - Validation Errors › NEG_007 - Submit form without address" classname="formNegative.spec.js" time="1.418">
+<system-out>
+<![CDATA[2026-04-05 17:33:21 [[32minfo[39m]: Test: NEG_007 - Empty address field
+2026-04-05 17:33:21 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:21 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:21 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:21 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:21 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:33:21 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:33:21 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:33:22 [[32minfo[39m]: Entering email: john@example.com
+2026-04-05 17:33:22 [[32minfo[39m]: Filling input "#email" with value: john@example.com
+2026-04-05 17:33:22 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:33:22 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:33:22 [[32minfo[39m]: Entering address: 
+2026-04-05 17:33:22 [[32minfo[39m]: Filling input "#address" with value: 
+2026-04-05 17:33:22 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:33:22 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:33:22 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:33:22 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:33:22 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:33:22 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:33:22 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:33:22 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:33:22 [[32minfo[39m]: Form validation blocked for empty address field
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-b2cf0-Submit-form-without-address-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-b2cf0-Submit-form-without-address-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-b2cf0-Submit-form-without-address-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Negative Scenarios - Validation Errors › NEG_008 - Submit form without city" classname="formNegative.spec.js" time="1.364">
+<system-out>
+<![CDATA[2026-04-05 17:33:22 [[32minfo[39m]: Test: NEG_008 - Empty city field
+2026-04-05 17:33:22 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:22 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:23 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:23 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:23 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:33:23 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:33:23 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:33:23 [[32minfo[39m]: Entering email: john@example.com
+2026-04-05 17:33:23 [[32minfo[39m]: Filling input "#email" with value: john@example.com
+2026-04-05 17:33:23 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:33:23 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:33:23 [[32minfo[39m]: Entering address: 789 Test Street
+2026-04-05 17:33:23 [[32minfo[39m]: Filling input "#address" with value: 789 Test Street
+2026-04-05 17:33:23 [[32minfo[39m]: Entering city: 
+2026-04-05 17:33:23 [[32minfo[39m]: Filling input "#city" with value: 
+2026-04-05 17:33:23 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:33:23 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:33:23 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:33:23 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:33:23 [[32minfo[39m]: Entering zip code: 12345
+2026-04-05 17:33:23 [[32minfo[39m]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:33:23 [[32minfo[39m]: Form validation blocked for empty city field
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-0afde----Submit-form-without-city-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-0afde----Submit-form-without-city-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-0afde----Submit-form-without-city-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Negative Scenarios - Validation Errors › NEG_009 - Submit form without zip code" classname="formNegative.spec.js" time="1.414">
+<system-out>
+<![CDATA[2026-04-05 17:33:24 [[32minfo[39m]: Test: NEG_009 - Empty zip code field
+2026-04-05 17:33:24 [[32minfo[39m]: Navigating to form page
+2026-04-05 17:33:24 [[32minfo[39m]: Navigating to http://localhost:3000/
+2026-04-05 17:33:24 [[32minfo[39m]: Waiting for form to load
+2026-04-05 17:33:24 [[32minfo[39m]: Waiting for element: #fullName
+2026-04-05 17:33:25 [[32minfo[39m]: Filling complete form with all fields
+2026-04-05 17:33:25 [[32minfo[39m]: Entering full name: John Doe
+2026-04-05 17:33:25 [[32minfo[39m]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:33:25 [[32minfo[39m]: Entering email: john@example.com
+2026-04-05 17:33:25 [[32minfo[39m]: Filling input "#email" with value: john@example.com
+2026-04-05 17:33:25 [[32minfo[39m]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:33:25 [[32minfo[39m]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:33:25 [[32minfo[39m]: Entering address: 789 Test Street
+2026-04-05 17:33:25 [[32minfo[39m]: Filling input "#address" with value: 789 Test Street
+2026-04-05 17:33:25 [[32minfo[39m]: Entering city: Test City
+2026-04-05 17:33:25 [[32minfo[39m]: Filling input "#city" with value: Test City
+2026-04-05 17:33:25 [[32minfo[39m]: Entering state: TC
+2026-04-05 17:33:25 [[32minfo[39m]: Filling input "#state" with value: TC
+2026-04-05 17:33:25 [[32minfo[39m]: Entering country: United States
+2026-04-05 17:33:25 [[32minfo[39m]: Filling input "#country" with value: United States
+2026-04-05 17:33:25 [[32minfo[39m]: Entering zip code: 
+2026-04-05 17:33:25 [[32minfo[39m]: Filling input "#zipCode" with value: 
+2026-04-05 17:33:25 [[32minfo[39m]: Form validation blocked for empty zip code field
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-a9513-ubmit-form-without-zip-code-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-a9513-ubmit-form-without-zip-code-chromium\video.webm]]
+
+[[ATTACHMENT|..\artifacts\formNegative-Form-Negative-a9513-ubmit-form-without-zip-code-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="formPositive.spec.js" timestamp="2026-04-05T12:01:22.564Z" hostname="chromium" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Form Positive Scenarios - Valid Submissions › POS_001 - Submit form with valid data" classname="formPositive.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form Positive Scenarios - Valid Submissions › POS_002 - Submit form with special characters in name (apostrophe)" classname="formPositive.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form Positive Scenarios - Valid Submissions › POS_003 - Submit form with email containing plus sign" classname="formPositive.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form Positive Scenarios - Valid Submissions › POS_004 - Form reset clears all fields" classname="formPositive.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="formSecurity.spec.js" timestamp="2026-04-05T12:01:22.564Z" hostname="chromium" tests="5" failures="0" skipped="5" time="0" errors="0">
+<testcase name="Form Security Test Scenarios › SEC_001 - XSS attempt in name field with script tag" classname="formSecurity.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form Security Test Scenarios › SEC_002 - SQL injection attempt in email field" classname="formSecurity.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form Security Test Scenarios › SEC_003 - SQL injection attempt in name field" classname="formSecurity.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form Security Test Scenarios › SEC_004 - XSS attempt in email field with HTML event handler" classname="formSecurity.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form Security Test Scenarios › SEC_005 - Input sanitization verification" classname="formSecurity.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="formUX.spec.js" timestamp="2026-04-05T12:01:22.564Z" hostname="chromium" tests="8" failures="0" skipped="8" time="0" errors="0">
+<testcase name="Form UX Test Scenarios › UX_001 - Form submission with different field fill order" classname="formUX.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form UX Test Scenarios › UX_002 - Submit button responsiveness after form fill" classname="formUX.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form UX Test Scenarios › UX_003 - Browser back button behavior after submission" classname="formUX.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form UX Test Scenarios › UX_004 - All form fields remain visible during interaction" classname="formUX.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form UX Test Scenarios › UX_005 - Tab navigation through form fields" classname="formUX.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form UX Test Scenarios › UX_006 - Form validation messages appear for invalid input" classname="formUX.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form UX Test Scenarios › UX_007 - Submit button visibility and accessibility" classname="formUX.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Form UX Test Scenarios › UX_008 - Success message presentation and styling" classname="formUX.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>

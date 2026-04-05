@@ -1,0 +1,23 @@
+2026-04-05 17:33:21 [info]: Test: NEG_007 - Empty address field
+2026-04-05 17:33:21 [info]: Navigating to form page
+2026-04-05 17:33:21 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:33:21 [info]: Waiting for form to load
+2026-04-05 17:33:21 [info]: Waiting for element: #fullName
+2026-04-05 17:33:21 [info]: Filling complete form with all fields
+2026-04-05 17:33:21 [info]: Entering full name: John Doe
+2026-04-05 17:33:21 [info]: Filling input "#fullName" with value: John Doe
+2026-04-05 17:33:22 [info]: Entering email: john@example.com
+2026-04-05 17:33:22 [info]: Filling input "#email" with value: john@example.com
+2026-04-05 17:33:22 [info]: Entering phone: +1 (555) 123-4567
+2026-04-05 17:33:22 [info]: Filling input "#phone" with value: +1 (555) 123-4567
+2026-04-05 17:33:22 [info]: Entering address: 
+2026-04-05 17:33:22 [info]: Filling input "#address" with value: 
+2026-04-05 17:33:22 [info]: Entering city: Test City
+2026-04-05 17:33:22 [info]: Filling input "#city" with value: Test City
+2026-04-05 17:33:22 [info]: Entering state: TC
+2026-04-05 17:33:22 [info]: Filling input "#state" with value: TC
+2026-04-05 17:33:22 [info]: Entering country: United States
+2026-04-05 17:33:22 [info]: Filling input "#country" with value: United States
+2026-04-05 17:33:22 [info]: Entering zip code: 12345
+2026-04-05 17:33:22 [info]: Filling input "#zipCode" with value: 12345
+2026-04-05 17:33:22 [info]: Form validation blocked for empty address field

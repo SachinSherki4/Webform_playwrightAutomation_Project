@@ -1,0 +1,140 @@
+{
+  "valid": {
+    "data": [
+      {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1 (555) 123-4567",
+        "description": "Valid user information"
+      },
+      {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "phone": "+1 (555) 987-6543",
+        "description": "Another valid user"
+      },
+      {
+        "name": "Michael O'Brien",
+        "email": "michael.obrien@example.com",
+        "phone": "+1 (555) 456-7890",
+        "description": "Valid data with apostrophe in name"
+      }
+    ]
+  },
+  "invalid": {
+    "emails": [
+      {
+        "value": "invalidemail",
+        "description": "Missing @ and domain"
+      },
+      {
+        "value": "test@",
+        "description": "Missing domain"
+      },
+      {
+        "value": "@example.com",
+        "description": "Missing local part"
+      },
+      {
+        "value": "test@example",
+        "description": "Missing TLD"
+      },
+      {
+        "value": "test test@example.com",
+        "description": "Space in email"
+      }
+    ],
+    "phones": [
+      {
+        "value": "123",
+        "description": "Too short"
+      },
+      {
+        "value": "abc",
+        "description": "Non-numeric"
+      },
+      {
+        "value": "!@#$%",
+        "description": "Special characters only"
+      },
+      {
+        "value": "(123) 456",
+        "description": "Incomplete phone"
+      }
+    ],
+    "names": [
+      {
+        "value": "123456",
+        "description": "Numeric input"
+      },
+      {
+        "value": "!@#$%^&*()",
+        "description": "Special characters only"
+      },
+      {
+        "value": "a".repeat(256),
+        "description": "Exceeds max length"
+      }
+    ]
+  },
+  "edgeCases": {
+    "data": [
+      {
+        "name": "A",
+        "email": "a@b.co",
+        "phone": "+1 (555) 000-0000",
+        "description": "Minimum valid lengths"
+      },
+      {
+        "name": "John".repeat(50),
+        "email": "a".repeat(50) + "@example.com",
+        "phone": "+1 (555) 999-9999",
+        "description": "Maximum valid lengths"
+      }
+    ]
+  },
+  "securityCases": {
+    "data": [
+      {
+        "name": "<script>alert('XSS')</script>",
+        "email": "test@example.com",
+        "phone": "+1 (555) 123-4567",
+        "description": "XSS attempt in name"
+      },
+      {
+        "name": "John Doe",
+        "email": "test'; DROP TABLE users; --@example.com",
+        "phone": "+1 (555) 123-4567",
+        "description": "SQL Injection attempt in email"
+      },
+      {
+        "name": "John Doe",
+        "email": "test@example.com",
+        "phone": "'; DROP TABLE users; --",
+        "description": "SQL Injection attempt in phone"
+      }
+    ]
+  },
+  "boundaryData": {
+    "data": [
+      {
+        "name": "A",
+        "email": "a@b.c",
+        "phone": "+1 (555) 000-0001",
+        "description": "Minimum length values"
+      },
+      {
+        "name": "X".repeat(255),
+        "email": "test@example.com",
+        "phone": "+1 (555) 999-9999",
+        "description": "Name at max length (255 chars)"
+      },
+      {
+        "name": "John Doe",
+        "email": "a".repeat(60) + "@example.com",
+        "phone": "+1 (555) 999-9999",
+        "description": "Email at max length"
+      }
+    ]
+  }
+}

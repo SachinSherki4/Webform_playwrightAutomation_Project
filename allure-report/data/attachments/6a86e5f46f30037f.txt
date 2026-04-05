@@ -1,0 +1,30 @@
+2026-04-05 17:32:30 [info]: Test: DATA_005 - Data persistence
+2026-04-05 17:32:30 [info]: Navigating to form page
+2026-04-05 17:32:30 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:32:31 [info]: Waiting for form to load
+2026-04-05 17:32:31 [info]: Waiting for element: #fullName
+2026-04-05 17:32:31 [info]: Filling complete form with all fields
+2026-04-05 17:32:31 [info]: Entering full name: Test Persistence
+2026-04-05 17:32:31 [info]: Filling input "#fullName" with value: Test Persistence
+2026-04-05 17:32:31 [info]: Entering email: test@example.com
+2026-04-05 17:32:31 [info]: Filling input "#email" with value: test@example.com
+2026-04-05 17:32:31 [info]: Entering phone: +1 (555) 111-1111
+2026-04-05 17:32:31 [info]: Filling input "#phone" with value: +1 (555) 111-1111
+2026-04-05 17:32:31 [info]: Entering address: 999 Test Lane
+2026-04-05 17:32:31 [info]: Filling input "#address" with value: 999 Test Lane
+2026-04-05 17:32:31 [info]: Entering city: Test City
+2026-04-05 17:32:31 [info]: Filling input "#city" with value: Test City
+2026-04-05 17:32:31 [info]: Entering state: TS
+2026-04-05 17:32:31 [info]: Filling input "#state" with value: TS
+2026-04-05 17:32:31 [info]: Entering country: United States
+2026-04-05 17:32:31 [info]: Filling input "#country" with value: United States
+2026-04-05 17:32:31 [info]: Entering zip code: 99999
+2026-04-05 17:32:31 [info]: Filling input "#zipCode" with value: 99999
+2026-04-05 17:32:31 [info]: Entering notes: Persistence test
+2026-04-05 17:32:31 [info]: Filling input "#notes" with value: Persistence test
+2026-04-05 17:32:31 [info]: Navigating to form page
+2026-04-05 17:32:31 [info]: Navigating to http://localhost:3000/
+2026-04-05 17:32:32 [info]: Waiting for form to load
+2026-04-05 17:32:32 [info]: Waiting for element: #fullName
+2026-04-05 17:32:32 [info]: Getting form field values
+2026-04-05 17:32:32 [info]: Form values after navigation: {"fullName":"","email":"","phone":"","address":"","city":"","state":"","country":"","zipCode":"","notes":""}
